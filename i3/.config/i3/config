@@ -1,0 +1,179 @@
+set $mod Mod4
+
+# Startup
+exec_always --no-startup-id compton --config /home/adrian/.config/compton.conf
+exec_always --no-startup-id feh --bg-scale /home/adrian/.config/wallpaper.png
+exec_always --no-startup-id xset s off
+exec_always --no-startup-id xset -dpms
+exec_always --no-startup-id xset s noblank
+exec_always --no-startup-id numlockx on
+
+exec --no-startup-id clipster -d
+exec --no-startup-id redshift
+
+# Programs
+bindsym $mod+Return exec termite
+bindsym $mod+Shift+f exec firefox
+
+# Assign Programs to Workspaces
+assign [class="Firefox"] $workspace1
+assign [class="Termite"] $workspace6
+assign [class="Steam"] $workspace8
+assign [class="TeamSpeak 3"] $workspace9
+for_window [class="Spotify"] move to workspace $workspace7
+
+# Run Rofi
+bindsym $mod+d exec rofi -show drun
+
+# Clipster
+bindsym $mod+c exec clipster -sp
+
+# Polybar
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+# Font
+font pango:DejaVu Sans Mono 8
+
+# Set Colors
+set $bg-color 	         #131B26
+set $inactive-bg-color   #131B26
+set $text-color          #F3F4F5 
+set $inactive-text-color #818D92
+set $accent-color        #C67C6F
+set $alert-color	 #C44444
+
+# Window Colors
+#                       border              background         text                 indicator
+client.focused          $bg-color           $accent-color      $text-color          $accent-color
+client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color $inactive-bg-color
+client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color $inactive-bg-color
+client.urgent           $alert-color        $alert-color       $text-color          $alert-color
+
+for_window [class=".*"] border pixel 1
+hide_edge_borders both
+
+# Gaps
+gaps inner 20
+gaps outer 0
+
+# Workspace-Related Bindings
+set $workspace1 "1" 
+set $workspace2 "2"
+set $workspace3 "3"
+set $workspace4 "4"
+set $workspace5 "5"
+set $workspace6 "6"
+set $workspace7 "7"
+set $workspace8 "8"
+set $workspace9 "9"
+set $workspace10 "10"
+
+bindsym $mod+1 workspace $workspace1
+bindsym $mod+2 workspace $workspace2
+bindsym $mod+3 workspace $workspace3
+bindsym $mod+4 workspace $workspace4
+bindsym $mod+5 workspace $workspace5
+bindsym $mod+6 workspace $workspace6
+bindsym $mod+7 workspace $workspace7
+bindsym $mod+8 workspace $workspace8
+bindsym $mod+9 workspace $workspace9
+bindsym $mod+0 workspace $workspace10
+
+bindsym $mod+Shift+1 move container to workspace $workspace1
+bindsym $mod+Shift+2 move container to workspace $workspace2
+bindsym $mod+Shift+3 move container to workspace $workspace3
+bindsym $mod+Shift+4 move container to workspace $workspace4
+bindsym $mod+Shift+5 move container to workspace $workspace5
+bindsym $mod+Shift+6 move container to workspace $workspace6
+bindsym $mod+Shift+7 move container to workspace $workspace7
+bindsym $mod+Shift+8 move container to workspace $workspace8
+bindsym $mod+Shift+9 move container to workspace $workspace9
+bindsym $mod+Shift+0 move container to workspace $workspace10
+
+bindsym $mod+Shift+n move workspace to output left
+bindsym $mod+Shift+m move workspace to output right
+
+workspace $workspace1 output $monitor1
+workspace $workspace2 output $monitor1
+workspace $workspace3 output $monitor1
+workspace $workspace4 output $monitor1
+workspace $workspace5 output $monitor1
+workspace $workspace6 output $monitor2
+workspace $workspace7 output $monitor2
+workspace $workspace8 output $monitor2
+workspace $workspace9 output $monitor2
+workspace $workspace10 output $monitor2
+
+# Set Monitors
+set $monitor1 "DP-4"
+set $monitor2 "DP-2"
+
+# Media Keys
+bindsym XF86AudioRaiseVolume exec /usr/bin/pulseaudio-ctl up
+bindsym XF86AudioLowerVolume exec /usr/bin/pulseaudio-ctl down   
+bindsym XF86AudioMute exec /usr/bin/pulseaudio-ctl mute
+
+bindsym XF86AudioPlay exec --no-startup-id playerctl play-pause
+bindsym XF86AudioNext exec --no-startup-id playerctl next
+bindsym XF86AudioPrev exec --no-startup-id playerctl previous
+
+# Restart-Related Bindings
+bindsym $mod+Shift+c reload
+bindsym $mod+Shift+r restart
+
+# Resize-Related Bindings
+bindsym $mod+r mode "resize"
+
+mode "resize" {
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+# Kill Focused Window
+bindsym $mod+Shift+q kill
+
+# Change Focus
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# Move Focused Window
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# Split in Horizontal Orientation
+bindsym $mod+h split h
+
+# Split in Vertical Orientation
+bindsym $mod+v split v
+
+# Enter Fullscreen Mode for the Focused Container
+bindsym $mod+f fullscreen toggle
+
+# Change Container Layout
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+# Toggle Ttiling / Floating
+bindsym $mod+Shift+space floating toggle
+
+# Change Focus between Tiling / Floating Windows
+bindsym $mod+space focus mode_toggle
+
+# Focus the Parent Container
+bindsym $mod+a focus parent
+
+# Focus the Child Container
+#bindsym $mod+d focus child
+
+# Floating Modifier 
+floating_modifier $mod

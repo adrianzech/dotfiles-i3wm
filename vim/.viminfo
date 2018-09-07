@@ -1,0 +1,792 @@
+# Diese viminfo-Datei wurde von Vim 8.1 generiert.
+# Sie können sie verändern, wenn Sie vorsichtig vorgehen!
+
+# Viminfo version
+|1,4
+
+# Wert von 'encoding', als diese Datei geschrieben wurde
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Letztes Suchmuster:
+~MSle0~/user
+
+# Letzte ersetzte Zeichenkette:
+$
+
+# Befehlszeile Geschichte (neueste bis älteste):
+:q
+|2,0,1536349399,,"q"
+:wq
+|2,0,1536347499,,"wq"
+:w
+|2,0,1536347384,,"w"
+:q!
+|2,0,1536346504,,"q!"
+:'<,'>q
+|2,0,1536334049,,"'<,'>q"
+:Q!
+|2,0,1536251003,,"Q!"
+:wq!
+|2,0,1536247015,,"wq!"
+
+# Suchausdruck Geschichte (neueste bis älteste):
+?/user
+|2,1,1536344092,47,"user"
+? @$
+|2,1,1536325123,,"@$"
+
+# Ausdruck Geschichte (neueste bis älteste):
+
+# Eingabe-Zeile Geschichte (neueste bis älteste):
+
+# Debug-Zeile Geschichte (neueste bis älteste):
+
+# Register:
+"0	LINE	0
+	color3 = c67c6f
+|3,0,0,1,1,0,1536344746,"color3 = c67c6f"
+""1	LINE	0
+	#bindsym $mod+c exec clipster -sp
+|3,1,1,1,1,0,1536347321,"#bindsym $mod+c exec clipster -sp"
+"2	LINE	0
+	bindsym $mod+c exec clipster -s [-p|-c]
+|3,0,2,1,1,0,1536347319,"bindsym $mod+c exec clipster -s [-p|-c]"
+"3	LINE	0
+	~/.config/redshift/redshift.conf
+|3,0,3,1,1,0,1536346405,"~/.config/redshift/redshift.conf"
+"4	LINE	0
+	export VISUAL=/usr/bin/vim
+|3,0,4,1,1,0,1536343699,"export VISUAL=/usr/bin/vim"
+"5	LINE	0
+	export EDITOR=/usr/bin/vim
+|3,0,5,1,1,0,1536343699,"export EDITOR=/usr/bin/vim"
+"6	LINE	0
+	
+|3,0,6,1,1,0,1536343698,""
+"7	LINE	0
+	
+|3,0,7,1,1,0,1536343668,""
+"8	LINE	0
+	}
+|3,0,8,1,1,0,1536343667,"}"
+"9	LINE	0
+	  fi
+|3,0,9,1,1,0,1536343667,"  fi"
+"-	CHAR	0
+	e
+|3,0,36,0,1,0,1536342081,"e"
+
+# Datei-Marken:
+'0  1  0  ~/.fehbg.bak
+|4,48,1,0,1536349399,"~/.fehbg.bak"
+'1  1  0  ~/.fehbg.bak
+|4,49,1,0,1536349333,"~/.fehbg.bak"
+'2  1  0  ~/.fehbg
+|4,50,1,0,1536349246,"~/.fehbg"
+'3  8  0  ~/[Command Line]
+|4,51,8,0,1536348620,"~/[Command Line]"
+'4  2  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,52,2,0,1536347499,"~/.config/polybar/scripts/spotify-playpause.sh"
+'5  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,53,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+'6  54  0  ~/.config/i3/config
+|4,54,54,0,1536347424,"~/.config/i3/config"
+'7  12  3  ~/.config/i3/config
+|4,55,12,3,1536347008,"~/.config/i3/config"
+'8  12  3  ~/.config/i3/config
+|4,56,12,3,1536347008,"~/.config/i3/config"
+'9  6  10  ~/.config/redshift/redshift.conf
+|4,57,6,10,1536346990,"~/.config/redshift/redshift.conf"
+
+# Geschichte (neueste zuerst):
+-'  1  0  ~/.fehbg.bak
+|4,39,1,0,1536349399,"~/.fehbg.bak"
+-'  1  0  ~/.fehbg.bak
+|4,39,1,0,1536349333,"~/.fehbg.bak"
+-'  1  0  ~/.fehbg
+|4,39,1,0,1536349246,"~/.fehbg"
+-'  1  0  ~/.fehbg
+|4,39,1,0,1536349246,"~/.fehbg"
+-'  1  0  ~/.fehbg
+|4,39,1,0,1536349246,"~/.fehbg"
+-'  1  0  ~/.fehbg
+|4,39,1,0,1536349246,"~/.fehbg"
+-'  8  0  ~/[Command Line]
+|4,39,8,0,1536348620,"~/[Command Line]"
+-'  8  0  ~/[Command Line]
+|4,39,8,0,1536348620,"~/[Command Line]"
+-'  8  0  ~/[Command Line]
+|4,39,8,0,1536348620,"~/[Command Line]"
+-'  8  0  ~/[Command Line]
+|4,39,8,0,1536348620,"~/[Command Line]"
+-'  1  0  ~/.zlogin
+|4,39,1,0,1536348613,"~/.zlogin"
+-'  1  0  ~/.zlogin
+|4,39,1,0,1536348613,"~/.zlogin"
+-'  1  0  ~/.zlogin
+|4,39,1,0,1536348613,"~/.zlogin"
+-'  1  0  ~/.zlogin
+|4,39,1,0,1536348613,"~/.zlogin"
+-'  1  0  ~/.zlogin
+|4,39,1,0,1536348613,"~/.zlogin"
+-'  1  0  ~/.zlogin
+|4,39,1,0,1536348613,"~/.zlogin"
+-'  1  0  ~/.zlogin
+|4,39,1,0,1536348613,"~/.zlogin"
+-'  1  0  ~/.zlogin
+|4,39,1,0,1536348613,"~/.zlogin"
+-'  2  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,2,0,1536347499,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  2  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,2,0,1536347499,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  2  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,2,0,1536347499,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  2  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,2,0,1536347499,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  2  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,2,0,1536347499,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  2  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,2,0,1536347499,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  2  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,2,0,1536347499,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  2  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,2,0,1536347499,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  2  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,2,0,1536347499,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  2  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,2,0,1536347499,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  2  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,2,0,1536347499,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  2  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,2,0,1536347499,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  2  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,2,0,1536347499,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  2  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,2,0,1536347499,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  2  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,2,0,1536347499,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  2  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,2,0,1536347499,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,1,0,1536347494,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,1,0,1536347494,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,1,0,1536347494,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,1,0,1536347494,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,1,0,1536347494,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,1,0,1536347494,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,1,0,1536347494,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,1,0,1536347494,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,1,0,1536347494,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,1,0,1536347494,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,1,0,1536347494,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,1,0,1536347494,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,1,0,1536347494,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,1,0,1536347494,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,1,0,1536347494,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify-playpause.sh
+|4,39,1,0,1536347494,"~/.config/polybar/scripts/spotify-playpause.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  1  0  ~/.config/polybar/scripts/spotify.sh
+|4,39,1,0,1536347493,"~/.config/polybar/scripts/spotify.sh"
+-'  54  0  ~/.config/i3/config
+|4,39,54,0,1536347424,"~/.config/i3/config"
+-'  54  0  ~/.config/i3/config
+|4,39,54,0,1536347424,"~/.config/i3/config"
+-'  54  0  ~/.config/i3/config
+|4,39,54,0,1536347424,"~/.config/i3/config"
+-'  54  0  ~/.config/i3/config
+|4,39,54,0,1536347424,"~/.config/i3/config"
+-'  54  0  ~/.config/i3/config
+|4,39,54,0,1536347424,"~/.config/i3/config"
+-'  54  0  ~/.config/i3/config
+|4,39,54,0,1536347424,"~/.config/i3/config"
+-'  54  0  ~/.config/i3/config
+|4,39,54,0,1536347424,"~/.config/i3/config"
+-'  54  0  ~/.config/i3/config
+|4,39,54,0,1536347424,"~/.config/i3/config"
+-'  54  0  ~/.config/i3/config
+|4,39,54,0,1536347424,"~/.config/i3/config"
+-'  54  0  ~/.config/i3/config
+|4,39,54,0,1536347424,"~/.config/i3/config"
+-'  54  0  ~/.config/i3/config
+|4,39,54,0,1536347424,"~/.config/i3/config"
+-'  54  0  ~/.config/i3/config
+|4,39,54,0,1536347424,"~/.config/i3/config"
+-'  54  0  ~/.config/i3/config
+|4,39,54,0,1536347424,"~/.config/i3/config"
+-'  54  0  ~/.config/i3/config
+|4,39,54,0,1536347424,"~/.config/i3/config"
+-'  54  0  ~/.config/i3/config
+|4,39,54,0,1536347424,"~/.config/i3/config"
+-'  54  0  ~/.config/i3/config
+|4,39,54,0,1536347424,"~/.config/i3/config"
+-'  54  0  ~/.config/i3/config
+|4,39,54,0,1536347424,"~/.config/i3/config"
+-'  54  0  ~/.config/i3/config
+|4,39,54,0,1536347424,"~/.config/i3/config"
+
+# Geschichte der Markierungen innerhalb von Dateien (neueste zuerst):
+
+> ~/.fehbg.bak
+	*	1536349398	0
+	"	1	0
+
+> ~/.fehbg
+	*	1536349244	0
+	"	1	0
+
+> ~/.zlogin
+	*	1536348613	0
+	"	1	0
+	^	1	51
+	.	1	50
+	+	1	50
+
+> ~/.config/polybar/scripts/spotify-playpause.sh
+	*	1536347498	0
+	"	2	0
+	^	2	0
+	.	3	0
+	+	7	1
+	+	4	14
+	+	6	10
+	+	4	10
+	+	3	0
+
+> ~/.config/polybar/scripts/spotify.sh
+	*	1536347491	0
+	"	1	0
+	^	4	0
+	.	4	0
+	+	1	11
+	+	5	0
+	+	1	11
+	+	3	0
+	+	4	0
+
+> ~/.config/i3/config
+	*	1536347421	0
+	"	54	0
+	^	107	14
+	.	108	0
+	+	35	0
+	+	37	0
+	+	109	18
+	+	110	18
+	+	19	0
+	+	20	0
+	+	21	0
+	+	21	34
+	+	22	0
+	+	23	0
+	+	22	0
+	+	109	18
+	+	110	18
+	+	60	26
+	+	60	19
+	+	61	19
+	+	62	19
+	+	63	19
+	+	64	19
+	+	65	19
+	+	66	19
+	+	67	19
+	+	68	19
+	+	69	21
+	+	60	26
+	+	61	27
+	+	62	30
+	+	61	26
+	+	60	26
+	+	61	26
+	+	62	30
+	+	43	20
+	+	43	24
+	+	31	7
+	+	43	0
+	+	56	0
+	+	117	59
+	+	118	34
+	+	119	0
+	+	22	0
+	+	21	0
+	+	12	30
+	+	13	0
+	+	43	20
+	+	43	25
+	+	50	95
+	+	60	18
+	+	61	18
+	+	62	18
+	+	105	0
+	+	114	0
+	+	113	0
+	+	112	0
+	+	111	0
+	+	63	18
+	+	64	18
+	+	65	18
+	+	66	18
+	+	67	18
+	+	68	18
+	+	69	20
+	+	20	35
+	+	176	0
+	+	114	0
+	+	176	0
+	+	12	4
+	+	11	4
+	+	13	32
+	+	13	0
+	+	14	0
+	+	29	32
+	+	107	14
+	+	108	0
+
+> ~/.config/redshift/redshift.conf
+	*	1536346989	0
+	"	6	10
+	^	6	11
+	.	6	10
+	+	1	9
+	+	7	7
+	+	6	4
+	+	6	7
+	+	2	23
+	+	5	11
+	+	6	10
+	+	1	1
+	+	4	8
+	+	2	23
+	+	6	8
+	+	5	11
+	+	6	10
+
+> ~/.config/redshift/redshift.conf~
+	*	1536346470	0
+	"	3	0
+	^	3	0
+	.	2	24
+	+	1	8
+	+	6	7
+	+	5	11
+	+	6	10
+	+	2	0
+	+	1	9
+	+	2	24
+
+> ~/.config/rofi/config
+	*	1536346027	0
+	"	11	14
+	^	6	16
+	.	6	0
+	+	6	0
+
+> ~/.oh-my-zsh/themes/agnoster.zsh-theme
+	*	1536344916	0
+	"	185	14
+	^	199	23
+	.	199	22
+	+	199	22
+
+> ~/.config/termite/config
+	*	1536344905	0
+	"	23	16
+	^	40	11
+	.	40	10
+	+	37	1
+	+	38	1
+	+	39	15
+	+	41	0
+	+	40	6
+	+	39	10
+	+	40	10
+
+> ~/.config/compton.conf
+	*	1536343913	0
+	"	8	60
+	^	8	61
+	.	8	60
+	+	7	13
+	+	1	16
+	+	2	31
+	+	1	31
+	+	6	0
+	+	6	87
+	+	7	12
+	+	6	0
+	+	7	14
+	+	8	21
+	+	7	47
+	+	8	60
+
+> ~/.config/ranger/rc.conf
+	*	1536343905	0
+	"	36	19
+	^	36	20
+	.	36	19
+	+	36	19
+
+> ~/.config/ranger/rifle.conf
+	*	1536343890	0
+	"	208	0
+
+> ~/.zshrc
+	*	1536343732	0
+	"	1	12
+	^	1	13
+	.	1	12
+	+	7	0
+	+	1	0
+	+	103	0
+	+	1	17
+	+	1	0
+	+	103	0
+	+	111	0
+	+	103	0
+	+	2	0
+	+	1	12
+
+> ~/.config/polybar/config
+	*	1536343162	0
+	"	88	18
+	^	94	19
+	.	94	18
+	+	40	0
+	+	44	0
+	+	44	24
+	+	43	23
+	+	42	24
+	+	41	23
+	+	42	23
+	+	41	45
+	+	42	48
+	+	95	17
+	+	97	38
+	+	21	26
+	+	57	16
+	+	24	19
+	+	57	16
+	+	96	6
+	+	21	19
+	+	91	13
+	+	21	21
+	+	93	19
+	+	59	13
+	+	93	25
+	+	94	5
+	+	96	12
+	+	94	11
+	+	96	12
+	+	97	13
+	+	95	13
+	+	98	13
+	+	94	21
+	+	100	12
+	+	102	0
+	+	102	25
+	+	102	10
+	+	94	18
+	+	102	25
+	+	94	5
+	+	95	6
+	+	96	6
+	+	97	6
+	+	98	6
+	+	94	11
+	+	95	13
+	+	96	13
+	+	97	13
+	+	98	13
+	+	106	10
+	+	105	0
+	+	104	26
+	+	105	26
+	+	106	20
+	+	104	38
+	+	105	42
+	+	21	19
+	+	102	5
+	+	103	6
+	+	104	6
+	+	105	6
+	+	106	16
+	+	21	22
+	+	108	15
+	+	109	22
+	+	110	30
+	+	110	10
+	+	104	0
+	+	93	0
+	+	111	0
+	+	114	16
+	+	110	20
+	+	75	18
+	+	85	33
+	+	77	17
+	+	84	15
+	+	77	19
+	+	79	19
+	+	80	21
+	+	82	17
+	+	84	19
+	+	21	43
+	+	86	0
+	+	91	0
+	+	88	45
+	+	87	6
+	+	88	6
+	+	89	6
+	+	90	6
+	+	103	17
+	+	111	17
+	+	97	31
+	+	98	23
+	+	103	17
+	+	111	17
+	+	114	16
+	+	80	21
+	+	94	18
+	+	62	11
+	+	70	8
+	+	62	8
+	+	94	18
+
+> ~/.config/polybar/scripts/launchlistener.sh
+	*	1536329991	0
+	"	1	42
+	^	1	43
+	.	1	43
+	+	1	43
+
+> ~/.config/polybar/scripts/spotify_controls.sh
+	*	1536329424	0
+	"	1	0
+
+> ~/.config/polybar/launch.sh
+	*	1536327091	0
+	"	1	0
+	^	10	24
+	.	10	21
+	+	9	11
+	+	10	11
+	+	9	24
+	+	10	24
+	+	9	23
+	+	10	21
+
+> ~/.config/polybar/convig
+	*	1536326660	0
+	"	1	0
+
+> ~/.config/user-dirs.dirs
+	*	1536323732	0
+	"	12	36
+	^	12	37
+	.	12	36
+	+	13	27
+	+	12	22
+	+	11	26
+	+	12	22
+	+	13	27
+	+	9	40
+	+	11	32
+	+	12	36
+
+> ~/.config/user-dirs-dirs
+	*	1536323395	0
+	"	1	0
+
+> ~/.local/share/Steam/userdata/90767567/730/local/cfg/autoexec.cfg
+	*	1536306711	0
+	"	1	0
+
+> ~/.local/share/Steam/userdata/90767567/730/local/cfg/config.cfg
+	*	1536306697	0
+	"	471	10
+	^	471	11
+	.	472	0
+	+	471	11
+	+	472	0
+
+> ~/.steampid
+	*	1536306158	0
+	"	1	0
+
+> ~/.config/mopidy/mopidy.conf
+	*	1536270513	0
+	"	14	13
+	^	14	14
+	.	14	13
+	+	9	44
+	+	8	25
+	+	9	31
+	+	11	60
+	+	5	0
+	+	4	10
+	+	11	60
+	+	14	13
+
+> ~/.ncmpcpp/config
+	*	1536269379	0
+	"	6	21
+	^	6	22
+	.	6	21
+	+	6	21
+
+> ~/.config/systemd/user/mopidy.service
+	*	1536269174	0
+	"	16	8
+	^	17	28
+	.	17	27
+	+	14	0
+	+	14	12
+	+	15	0
+	+	13	10
+	+	18	26
+	+	12	10
+	+	13	0
+	+	17	27
+
+> ~/.esd_auth
+	*	1536263802	0
+	"	1	23
+
+> ~/.config/polybar/c
+	*	1536256857	0
+	"	1	0
+
+> ~/.config/polybar/weather
+	*	1536255872	0
+	"	12	0
+
+> ~/.config/polybar/spotify
+	*	1536255850	0
+	"	1	0
+
+> ~/.config/polybar/pkg.sh
+	*	1536255843	0
+	"	9	1
+	^	8	23
+	.	8	23
+	+	8	23
+
+> ~/.vimrc
+	*	1536255788	0
+	"	1	0
+	^	5	11
+	.	5	10
+	+	5	10
+
+> ~/.ssh/config
+	*	1536254410	0
+	"	6	30
+	^	6	31
+	.	6	31
+	+	4	759
+	+	4	667
+	+	4	0
+	+	5	7
+	+	6	0
+	+	6	35
+	+	7	0
+	+	6	31
+
+> /boot/EFI/refind/refind.conf
+	*	1536251003	0
+	"	573	38
+	^	573	39
+	.	573	39
+	+	577	0
+	+	577	39
+	+	565	39
+	+	573	39
+
+> /usr/share/applications/org.gnome.DiskUtility.desktop
+	*	1536248596	0
+	"	242	0
+
+> /usr/share/applications/avahi-discover.desktop
+	*	1536247018	0
+	"	3	13
+	^	3	14
+	.	3	13
+	+	3	13
