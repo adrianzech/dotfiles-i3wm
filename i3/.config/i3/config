@@ -1,8 +1,8 @@
 set $mod Mod4
 
 # Startup
-exec_always --no-startup-id compton --config /home/adrian/.config/compton.conf
-exec_always --no-startup-id feh --bg-scale /home/adrian/.config/wallpaper.png
+exec_always --no-startup-id compton --config $HOME/.config/compton.conf
+exec_always --no-startup-id feh --bg-scale $HOME/.config/wallpaper.png
 exec_always --no-startup-id xset s off
 exec_always --no-startup-id xset -dpms
 exec_always --no-startup-id xset s noblank
