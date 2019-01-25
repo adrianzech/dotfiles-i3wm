@@ -11,6 +11,7 @@ exec --no-startup-id redshift
 bindsym $mod+Return exec termite
 bindsym $mod+Shift+f exec firefox
 bindsym $mod+d exec rofi -show drun
+bindsym $mod+Shift+s exec flameshot gui
 
 # Assign Programs to Workspaces
 assign [class="Steam"] $workspace9
@@ -21,11 +22,11 @@ for_window [class="Spotify"] move to workspace $workspace10
 font pango:DejaVu Sans Mono 8
 
 # Set Colors
-set $bg-color 	         #131B26
-set $inactive-bg-color   #131B26
+set $bg-color 	         #0F111A
+set $inactive-bg-color   #0F111A
 set $text-color          #F3F4F5 
 set $inactive-text-color #818D92
-set $accent-color        #2196f3
+set $accent-color        #2979FF
 set $alert-color	 #C44444
 
 # Window Colors

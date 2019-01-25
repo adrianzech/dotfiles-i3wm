@@ -1,7 +1,11 @@
-rofi.color-window: argb:EE131B26, #131B26
-rofi.color-normal: argb:00131B26, #818D92, argb:00373B47, argb:00818D92, #F3F4F5
-rofi.color-urgent: argb:00131B26, #CC6666, argb:e54b5160, argb:00818D92, #F3F4F5
-rofi.color-active: argb:00131B26, #00BCD4, argb:e44b5160, argb:00818D92, #F3F4F5
+! State:           'bg',     'fg',     'bgalt',  'hlbg',   'hlfg'
+rofi.color-normal: #0F111A,  #818D92,  #0F111A,  #0F111A,  #F3F4F5
+rofi.color-urgent: #0F111A,  #818D92,  #0F111A,  #C44444,  #F3F4F5
+rofi.color-active: #0F111A,  #818D92,  #0F111A,  #2979FF,  #F3F4F5
+
+!                  'background', 'border', 'separator'
+rofi.color-window: #0F111A,      #0F111A,  #0F111A
+
 rofi.bw: 0
 rofi.padding: 40
 rofi.eh: 1

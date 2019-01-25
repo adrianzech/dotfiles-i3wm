@@ -1,9 +1,9 @@
 [colors]
 transparent = #00000000
-background = #131B26
+background = #0F111A
 foreground = #F3F4F5
 inactive-text = #818D92
-accent = #2196f3
+accent = #2979FF
 alert = #C44444
 
 [bar/master]

@@ -15,7 +15,7 @@ cursor_shape = block
 filter_unmatched_urls = true
 
 [colors]
-background = rgba(19, 27, 38, 0.8)
+background = rgba(15, 17, 26, 1)
 
 # 16 color space
 
