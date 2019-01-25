@@ -1,35 +1,21 @@
 set $mod Mod4
 
 # Startup
-exec_always --no-startup-id compton --config $HOME/.config/compton.conf
+exec_always --no-startup-id compton --config $HOME/.config/compton/compton.conf
 exec_always --no-startup-id feh --bg-scale $HOME/.config/wallpaper.png
-exec_always --no-startup-id xset s off
-exec_always --no-startup-id xset -dpms
-exec_always --no-startup-id xset s noblank
-exec_always --no-startup-id numlockx on
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
-exec --no-startup-id clipster -d
 exec --no-startup-id redshift
 
 # Programs
 bindsym $mod+Return exec termite
 bindsym $mod+Shift+f exec firefox
-
-# Assign Programs to Workspaces
-assign [class="Firefox"] $workspace1
-assign [class="Termite"] $workspace6
-assign [class="Steam"] $workspace8
-assign [class="TeamSpeak 3"] $workspace9
-for_window [class="Spotify"] move to workspace $workspace7
-
-# Run Rofi
 bindsym $mod+d exec rofi -show drun
 
-# Clipster
-bindsym $mod+c exec clipster -sp
-
-# Polybar
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+# Assign Programs to Workspaces
+assign [class="Steam"] $workspace9
+assign [class="TeamSpeak 3"] $workspace10
+for_window [class="Spotify"] move to workspace $workspace10
 
 # Font
 font pango:DejaVu Sans Mono 8
@@ -39,7 +25,7 @@ set $bg-color 	         #131B26
 set $inactive-bg-color   #131B26
 set $text-color          #F3F4F5 
 set $inactive-text-color #818D92
-set $accent-color        #C67C6F
+set $accent-color        #2196f3
 set $alert-color	 #C44444
 
 # Window Colors

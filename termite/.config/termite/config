@@ -34,10 +34,8 @@ color2  = #99cc99
 color10 = #99cc99
 
 # Yellow
-# color3  = #ffcc66
-# color11 = #ffcc66
-color3  = #c67c6f
-color11 = #c67c6f
+color3  = #ffcc66
+color11 = #ffcc66
 
 # Blue
 color4  = #6699cc

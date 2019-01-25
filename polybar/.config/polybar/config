@@ -3,7 +3,7 @@ transparent = #00000000
 background = #131B26
 foreground = #F3F4F5
 inactive-text = #818D92
-accent = #C67C6F
+accent = #2196f3
 alert = #C44444
 
 [bar/master]
@@ -18,7 +18,7 @@ font-1 = "FontAwesome:pixelsize=12:antialias=true;1"
 [bar/top]
 inherit = bar/master
 modules-left = i3 spotify-previous spotify-playpause spotify-next spotify
-modules-right = memory cpu volume powermenu date time
+modules-right = volume date time
 
 border-top-size = 5
 border-left-size = 0
@@ -91,9 +91,9 @@ format-margin = 4
 
 [module/volume]
 type = internal/pulseaudio
-label-volume = vol %percentage%%
+label-volume =  %percentage%%
 format-volume-padding = 5
-format-volume-background = ${colors.accent}
+format-volume-background = ${colors.background}
 format-volume-foreground = ${colors.foreground}
 format-volume-margin = 0
 
@@ -101,7 +101,7 @@ format-volume-margin = 0
 type = internal/cpu
 label = cpu %percentage%%
 format-padding = 5
-format-background = ${colors.accent}
+format-background = ${colors.background}
 format-foreground = ${colors.foreground}
 format-margin = 0
 
@@ -109,7 +109,7 @@ format-margin = 0
 type = internal/memory
 label = ram %gb_used%
 format-padding = 5
-format-background = ${colors.accent}
+format-background = ${colors.background}
 format-foreground = ${colors.foreground}
 format-margin = 0
 
