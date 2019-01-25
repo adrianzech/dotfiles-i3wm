@@ -8,7 +8,7 @@
 -  **Terminal**: Termite
 - **Compositor**: Compton
 - **Menu**: Rofi
-- **Theme**: Vestica
+- **Theme**: Custom Blue Theme
 
 ## Install
 
