@@ -123,6 +123,7 @@ format-background = ${colors.background}
 [module/spotify-playpause]
 type = custom/script
 interval = 0
+exec-if = pgrep -x spotify
 exec = ~/.config/polybar/scripts/spotify-playpause.sh
 click-left = playerctl play-pause
 format-padding = 3
@@ -130,6 +131,7 @@ format-background = ${colors.accent}
 
 [module/spotify-previous]
 type = custom/script
+exec-if = pgrep -x spotify
 exec = echo ""
 click-left = playerctl previous
 format-padding = 3
@@ -137,6 +139,7 @@ format-background = ${colors.accent}
 
 [module/spotify-next]
 type = custom/script
+exec-if = pgrep -x spotify
 exec = echo ""
 click-left = playerctl next
 format-padding = 3
