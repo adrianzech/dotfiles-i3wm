@@ -38,8 +38,10 @@ color3  = #ffcc66
 color11 = #ffcc66
 
 # Blue
-color4  = #6699cc
-color12 = #6699cc
+#color4  = #6699cc
+#color12 = #6699cc
+color4  = #2979FF
+color12 = #2979FF
 
 # Purple
 color5  = #cc99cc
