@@ -14,6 +14,7 @@ background = ${colors.transparent}
 foreground = ${colors.foreground}
 font-0 = "DejaVu Sans:pixelsize=12:antialias=true;1"
 font-1 = "FontAwesome:pixelsize=12:antialias=true;1"
+locale = de_AT.UTF-8
 
 [bar/top]
 inherit = bar/master
