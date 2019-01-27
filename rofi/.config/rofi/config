@@ -7,6 +7,7 @@ rofi.color-active: #0F111A,  #818D92,  #0F111A,  #2979FF,  #F3F4F5
 rofi.color-window: #0F111A,      #0F111A,  #0F111A
 
 rofi.bw: 0
+rofi.width: 300
 rofi.padding: 40
 rofi.eh: 1
 rofi.separator-style: none
