@@ -19,7 +19,7 @@ locale = de_AT.UTF-8
 [bar/top]
 inherit = bar/master
 modules-left = i3 spotify-previous spotify-playpause spotify-next spotify
-modules-right = volume date time
+modules-right = date time
 
 border-top-size = 5
 border-left-size = 0
@@ -72,47 +72,6 @@ label = %date%
 date = %A, %d %B
 format-padding = 5
 format-background = ${colors.background}
-
-[module/powermenu]
-type = custom/menu
-label-open = "System"
-label-open-font = 4
-label-close = "Close"
-label-separator = " - "
-
-menu-0-0 = "Reboot"
-menu-0-0-exec = systemctl reboot
-menu-0-1 = "Shutdown"
-menu-0-1-exec = systemctl poweroff
-
-format-padding = 5
-format-background = ${colors.background}
-format-foreground = ${colors.foreground}
-format-margin = 4
-
-[module/volume]
-type = internal/pulseaudio
-label-volume =  %percentage%%
-format-volume-padding = 5
-format-volume-background = ${colors.background}
-format-volume-foreground = ${colors.foreground}
-format-volume-margin = 0
-
-[module/cpu]
-type = internal/cpu
-label = cpu %percentage%%
-format-padding = 5
-format-background = ${colors.background}
-format-foreground = ${colors.foreground}
-format-margin = 0
-
-[module/memory]
-type = internal/memory
-label = ram %gb_used%
-format-padding = 5
-format-background = ${colors.background}
-format-foreground = ${colors.foreground}
-format-margin = 0
 
 [module/spotify]
 type = custom/script
