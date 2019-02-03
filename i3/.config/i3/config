@@ -16,7 +16,7 @@ bindsym $mod+p exec $HOME/.config/rofi/menu
 
 # Assign Programs to Workspaces
 assign [class="Steam"] $workspace9
-assign [class="TeamSpeak 3"] $workspace9
+assign [class="TeamSpeak 3"] $workspace10
 for_window [class="Spotify"] move to workspace $workspace10
 
 # Font
