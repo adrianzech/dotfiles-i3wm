@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 stow compton
-stow feh
 stow i3
 stow neofetch
 stow polybar
