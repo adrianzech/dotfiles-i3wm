@@ -2,17 +2,17 @@ set $mod Mod4
 
 # Startup
 exec_always --no-startup-id compton --config $HOME/.config/compton/compton.conf
-exec_always --no-startup-id feh --bg-scale $HOME/.config/wallpaper.png
+exec_always --no-startup-id  wal -R
+#exec_always --no-startup-id feh --bg-scale $HOME/.config/wallpapers/wallpaper.png
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 exec --no-startup-id redshift
 
 # Programs
-bindsym $mod+Return exec termite
+bindsym $mod+Return exec urxvt
 bindsym $mod+Shift+f exec firefox
 bindsym $mod+d exec rofi -show drun
-bindsym $mod+Shift+s exec flameshot gui
-bindsym $mod+p exec $HOME/.config/rofi/menu
+bindsym Print exec flameshot gui
 
 # Assign Programs to Workspaces
 assign [class="Steam"] $workspace9
@@ -22,20 +22,17 @@ for_window [class="Spotify"] move to workspace $workspace10
 # Font
 font pango:DejaVu Sans Mono 8
 
-# Set Colors
-set $bg-color 	         #0F111A
-set $inactive-bg-color   #0F111A
-set $text-color          #F3F4F5 
-set $inactive-text-color #818D92
-set $accent-color        #2979FF
-set $alert-color	 #C44444
+# Colors
+set_from_resource $fg i3wm.color7 #f0f0f0
+set_from_resource $bg i3wm.color2 #f0f0f0
 
-# Window Colors
-#                       border              background         text                 indicator
-client.focused          $bg-color           $accent-color      $text-color          $accent-color
-client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color $inactive-bg-color
-client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color $inactive-bg-color
-client.urgent           $alert-color        $alert-color       $text-color          $alert-color
+# Class                 Border  Backgr. Text Indicator Child_border
+client.focused          $bg     $bg     $fg  $bg       $bg
+client.focused_inactive $fg     $fg     $fg  $fg       $fg
+client.unfocused        $fg     $fg     $fg  $fg       $fg
+client.urgent           $bg     $bg     $fg  $bg       $bg
+client.placeholder      $bg     $bg     $fg  $bg       $bg
+client.background       $bg
 
 for_window [class=".*"] border pixel 1
 hide_edge_borders both
@@ -77,9 +74,6 @@ bindsym $mod+Shift+7 move container to workspace $workspace7
 bindsym $mod+Shift+8 move container to workspace $workspace8
 bindsym $mod+Shift+9 move container to workspace $workspace9
 bindsym $mod+Shift+0 move container to workspace $workspace10
-
-bindsym $mod+Shift+n move workspace to output left
-bindsym $mod+Shift+m move workspace to output right
 
 workspace $workspace1 output $monitor1
 workspace $workspace2 output $monitor1

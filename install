@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 stow compton
 stow i3
@@ -11,6 +11,6 @@ stow termite
 stow themes
 stow user-dirs
 stow vim
-stow wallpaper
+stow wallpapers
 stow xinit
 stow zsh
