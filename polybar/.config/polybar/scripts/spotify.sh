@@ -10,7 +10,7 @@ if [ "$player_status" = "Playing" ]; then
         echo "$artist - $title"
     fi
 elif [ "$player_status" = "Paused" ]; then
-    if [ -z "$artist"]; then
+    if [ -z "$artist" ]; then
         echo "$title"
     else
         echo "$artist - $title"
