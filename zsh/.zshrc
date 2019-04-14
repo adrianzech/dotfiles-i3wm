@@ -68,9 +68,9 @@ ZSH_THEME="robbyrussell"
 plugins=(
  	git
  	colored-man-pages
-  sudo
-  extract
-  ssh-agent
+  	sudo
+  	extract
+  	ssh-agent
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -100,7 +100,6 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-alias update="yay -Syu"
 
 export EDITOR=/usr/bin/vim
 export VISUAL=/usr/bin/vim

@@ -1,11 +1,5 @@
 [colors]
 transparent = #00000000
-#background = #0F111A
-#foreground = #F3F4F5
-#inactive-text = #818D92
-#secondary = #2979FF
-#alert = #C44444
-
 background = ${xrdb:color0:#222}
 foreground = ${xrdb:color7:#222}
 inactive-text  = ${xrdb:color7:#222}
@@ -83,6 +77,7 @@ format-background = ${colors.background}
 [module/spotify]
 type = custom/script
 interval = 2
+exec-if = pgrep -x spotify
 exec = ~/.config/polybar/scripts/spotify.sh
 format-padding = 5
 format-background = ${colors.background}
