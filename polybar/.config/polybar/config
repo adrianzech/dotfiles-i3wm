@@ -3,9 +3,9 @@ transparent     = #00000000
 background      = ${xrdb:background:#FFFFFF}
 foreground      = ${xrdb:foreground:#FFFFFF}
 inactive-text   = ${xrdb:foreground:#FFFFFF}
-primary         = ${xrdb:color1:#FFFFFF}
-secondary       = ${xrdb:color1:#FFFFFF}
-alert           = ${xrdb:color5:#FFFFFF}
+primary         = #2196F3
+secondary       = #2196F3
+alert           = #BF616A
 
 [bar/master]
 monitor = ${env:MONITOR}
