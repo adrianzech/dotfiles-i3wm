@@ -1,11 +1,11 @@
 [colors]
-transparent = #00000000
-background = ${xrdb:color0:#222}
-foreground = ${xrdb:color7:#222}
-inactive-text  = ${xrdb:color7:#222}
-primary = ${xrdb:color1:#222}
-secondary = ${xrdb:color2:#222}
-alert = ${xrdb:color3:#222}
+transparent     = #00000000
+background      = ${xrdb:background:#FFFFFF}
+foreground      = ${xrdb:foreground:#FFFFFF}
+inactive-text   = ${xrdb:foreground:#FFFFFF}
+primary         = ${xrdb:color1:#FFFFFF}
+secondary       = ${xrdb:color1:#FFFFFF}
+alert           = ${xrdb:color5:#FFFFFF}
 
 [bar/master]
 monitor = ${env:MONITOR}

@@ -2,8 +2,7 @@ set $mod Mod4
 
 # Startup
 exec_always --no-startup-id compton --config $HOME/.config/compton/compton.conf
-exec_always --no-startup-id  wal -R
-#exec_always --no-startup-id feh --bg-scale $HOME/.config/wallpapers/wallpaper.png
+exec_always --no-startup-id feh --bg-scale $HOME/.config/wallpapers/wallpaper.png
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 exec --no-startup-id redshift
@@ -11,8 +10,11 @@ exec --no-startup-id redshift
 # Programs
 bindsym $mod+Return exec urxvt
 bindsym $mod+Shift+f exec firefox
-bindsym $mod+d exec rofi -show drun
 bindsym Print exec flameshot gui
+
+# Menus
+bindsym $mod+d exec $HOME/.config/rofi/menu/search
+bindsym $mod+Shift+p exec $HOME/.config/rofi/menu/system
 
 # Assign Programs to Workspaces
 assign [class="Steam"] $workspace9
@@ -23,16 +25,17 @@ for_window [class="Spotify"] move to workspace $workspace10
 font pango:DejaVu Sans Mono 8
 
 # Colors
-set_from_resource $fg i3wm.color7 #f0f0f0
-set_from_resource $bg i3wm.color2 #f0f0f0
+set_from_resource $background background #FFFFFF
+set_from_resource $foreground foreground #FFFFFF
+set_from_resource $inactive-text foreground #FFFFFF
+set_from_resource $primary color1 #FFFFFF
+set_from_resource $secondary color1 #FFFFFF
+set_from_resource $alert color5 #FFFFFF
 
-# Class                 Border  Backgr. Text Indicator Child_border
-client.focused          $bg     $bg     $fg  $bg       $bg
-client.focused_inactive $fg     $fg     $fg  $fg       $fg
-client.unfocused        $fg     $fg     $fg  $fg       $fg
-client.urgent           $bg     $bg     $fg  $bg       $bg
-client.placeholder      $bg     $bg     $fg  $bg       $bg
-client.background       $bg
+client.focused          $background     $primary        $foreground             $primary
+client.unfocused        $background     $background     $inactive-text-color    $background
+client.focused_inactive $background     $background     $inactive-text-color    $background
+client.urgent           $alert          $alert          $foreground             $alert
 
 for_window [class=".*"] border pixel 1
 hide_edge_borders both
