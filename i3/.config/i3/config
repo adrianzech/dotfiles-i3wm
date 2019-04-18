@@ -28,8 +28,8 @@ font pango:DejaVu Sans Mono 8
 set_from_resource $background background #FFFFFF
 set_from_resource $foreground foreground #FFFFFF
 set_from_resource $inactive-text foreground #FFFFFF
-# set_from_resource $primary color1 #FFFFFF
-# set_from_resource $alert color5 #FFFFFF
+set_from_resource $primary accent #FFFFFF
+set_from_resource $alert color1 #FFFFFFFF
 
 set $primary #2196F3
 set $alert #BF616A

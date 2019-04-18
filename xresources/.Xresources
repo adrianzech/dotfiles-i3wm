@@ -12,8 +12,9 @@ URxvt.keysym.Shift-Control-V: eval:paste_clipboard
 URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
 
 ! special
+*.background:   #1c1e26
 *.foreground:   #d8dee8
-*.background:   #2f343f
+*.accent:       #2196f3
 *.cursorColor:  #b48ead
 
 ! black

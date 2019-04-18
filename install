@@ -6,8 +6,8 @@ stow polybar
 stow ranger
 stow redshift
 stow rofi
-stow themes
 stow user-dirs
 stow vim
 stow wallpapers
+stow xresources
 stow zsh

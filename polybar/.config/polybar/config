@@ -3,9 +3,8 @@ transparent     = #00000000
 background      = ${xrdb:background:#FFFFFF}
 foreground      = ${xrdb:foreground:#FFFFFF}
 inactive-text   = ${xrdb:foreground:#FFFFFF}
-primary         = #2196F3
-secondary       = #2196F3
-alert           = #BF616A
+accent          = ${xrdb:accent:#FFFFFF}
+alert           = ${xrdb:color1:#FFFFFF}
 
 [bar/master]
 monitor = ${env:MONITOR}
@@ -44,7 +43,7 @@ label-visible-background = ${colors.background}
 label-visible-foreground = ${colors.inactive-text}
 label-visible-padding = 4
 
-label-focused-background = ${colors.secondary}
+label-focused-background = ${colors.accent}
 label-focused-foreground = ${colors.foreground}
 label-focused-padding = 4
 
@@ -64,7 +63,7 @@ interval = 40
 label = %time%
 time = %H:%M
 format-padding = 5
-format-background = ${colors.secondary}
+format-background = ${colors.accent}
 
 [module/date]
 type = internal/date
@@ -89,7 +88,7 @@ exec-if = pgrep -x spotify
 exec = ~/.config/polybar/scripts/spotify-playpause.sh
 click-left = playerctl play-pause
 format-padding = 3
-format-background = ${colors.secondary}
+format-background = ${colors.accent}
 
 [module/spotify-previous]
 type = custom/script
@@ -97,7 +96,7 @@ exec-if = pgrep -x spotify
 exec = echo ""
 click-left = playerctl previous
 format-padding = 3
-format-background = ${colors.secondary}
+format-background = ${colors.accent}
 
 [module/spotify-next]
 type = custom/script
@@ -105,6 +104,6 @@ exec-if = pgrep -x spotify
 exec = echo ""
 click-left = playerctl next
 format-padding = 3
-format-background = ${colors.secondary}
+format-background = ${colors.accent}
 
 vim:ft=dosini
