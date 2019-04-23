@@ -4,6 +4,7 @@ set $mod Mod4
 exec_always --no-startup-id compton --config $HOME/.config/compton/compton.conf
 exec_always --no-startup-id feh --bg-scale $HOME/.config/wallpapers/wallpaper.png
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id greenclip daemon
 
 exec --no-startup-id redshift
 
@@ -15,6 +16,8 @@ bindsym Print exec flameshot gui
 # Menus
 bindsym $mod+d exec $HOME/.config/rofi/menu/search
 bindsym $mod+Shift+p exec $HOME/.config/rofi/menu/system
+bindsym $mod+c exec $HOME/.config/rofi/menu/clipboard
+
 
 # Assign Programs to Workspaces
 assign [class="Steam"] $workspace9

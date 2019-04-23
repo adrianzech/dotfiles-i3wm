@@ -70,7 +70,7 @@ plugins=(
  	colored-man-pages
   	sudo
   	extract
-  	ssh-agent
+#	ssh-agent
 )
 
 source $ZSH/oh-my-zsh.sh
