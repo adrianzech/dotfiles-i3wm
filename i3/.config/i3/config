@@ -18,6 +18,9 @@ bindsym $mod+d exec $HOME/.config/rofi/menu/search
 bindsym $mod+Shift+p exec $HOME/.config/rofi/menu/system
 bindsym $mod+c exec $HOME/.config/rofi/menu/clipboard
 
+# Scripts
+bindsym $mod+Shift+c exec $HOME/.config/compton/toggle-compton
+
 
 # Assign Programs to Workspaces
 assign [class="Steam"] $workspace9
@@ -108,7 +111,7 @@ bindsym XF86AudioNext exec --no-startup-id playerctl next
 bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 
 # Restart-Related Bindings
-bindsym $mod+Shift+c reload
+bindsym $mod+Control+r reload
 bindsym $mod+Shift+r restart
 
 # Resize-Related Bindings
