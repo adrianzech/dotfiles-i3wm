@@ -34,13 +34,10 @@ font pango:DejaVu Sans Mono 8
 set_from_resource $background background #FFFFFF
 set_from_resource $foreground foreground #FFFFFF
 set_from_resource $inactive-text foreground #FFFFFF
-set_from_resource $primary accent #FFFFFF
-set_from_resource $alert color1 #FFFFFFFF
+set_from_resource $accent accent #FFFFFF
+set_from_resource $alert color1 #FFFFFF
 
-set $primary #2196F3
-set $alert #BF616A
-
-client.focused          $background     $primary        $foreground             $primary
+client.focused          $background     $accent         $foreground             $accent
 client.unfocused        $background     $background     $inactive-text-color    $background
 client.focused_inactive $background     $background     $inactive-text-color    $background
 client.urgent           $alert          $alert          $foreground             $alert
