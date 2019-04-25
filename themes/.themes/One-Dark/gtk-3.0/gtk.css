@@ -33,7 +33,7 @@
   outline-width: 2px;
   outline-color: transparent;
   outline-offset: -4px;
-  -gtk-outline-radius: 0px;
+  -gtk-outline-radius: 1px;
   -gtk-secondary-caret-color: #4465a6;
 }
 
@@ -102,7 +102,7 @@
 }
 
 .view:hover, .view:selected {
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 textview text {
@@ -127,7 +127,7 @@ XfdesktopIconView.view .rubberband {
 
 flowbox flowboxchild {
   padding: 4px;
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 .content-view .tile:selected {
@@ -203,7 +203,7 @@ spinbutton:not(.vertical),
 entry {
   min-height: 32px;
   padding: 0 8px;
-  border-radius: 0px 0px 0 0;
+  border-radius: 1px 1px 0 0;
   caret-color: currentColor;
   transition: all 100ms cubic-bezier(0, 0, 0.2, 1), border-image 225ms cubic-bezier(0, 0, 0.2, 1);
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #4465a6 0%, transparent 0%) 0 0 0/0 0 0px;
@@ -332,7 +332,7 @@ entry progress {
 }
 
 spinbutton.vertical entry, .gedit-search-slider .linked:not(.vertical) > entry {
-  border-radius: 0px;
+  border-radius: 1px;
   transition: all 100ms cubic-bezier(0, 0, 0.2, 1);
   border-image: none;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -474,11 +474,11 @@ button {
   min-height: 24px;
   min-width: 16px;
   padding: 4px 8px;
-  border-radius: 0px;
+  border-radius: 1px;
   font-weight: 500;
   transition: all 100ms cubic-bezier(0, 0, 0.2, 1), background-size 300ms cubic-bezier(0, 0, 0.2, 1), background-image 1200ms cubic-bezier(0, 0, 0.2, 1);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24), inset 0 0 0 9999px transparent;
-  background-color: #4465a6;
+  background-color: #272c35;
   background-image: radial-gradient(circle farthest-corner at center, transparent 10%, transparent 0%);
   background-repeat: no-repeat;
   background-position: center;
@@ -600,8 +600,8 @@ button.image-button {
 
 
 button.text-button.image-button {
-  border-radius: 0px;
-  -gtk-outline-radius: 0px;
+  border-radius: 1px;
+  -gtk-outline-radius: 1px;
 }
 
 
@@ -631,7 +631,7 @@ filechooser #pathbarbox > stack > box.linked.vertical > button,
 button.flat,
 .linked.vertical >
 button.flat {
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 toolbar .linked > button.text-button.image-button, .titlebar:not(headerbar) .linked > button.text-button.image-button:not(.suggested-action):not(.destructive-action),
@@ -646,8 +646,8 @@ filechooser #pathbarbox > stack > box.linked.vertical > button.text-button.image
 button.flat.text-button.image-button,
 .linked.vertical >
 button.flat.text-button.image-button {
-  border-radius: 0px;
-  -gtk-outline-radius: 0px;
+  border-radius: 1px;
+  -gtk-outline-radius: 1px;
 }
 
 infobar.info button.flat, infobar.question button.flat, infobar.warning button.flat, infobar.error button.flat, .mate-panel-menu-bar button, .budgie-panel button, .raven-mpris button.image-button, .xfce4-panel.background button {
@@ -838,56 +838,56 @@ spinbutton:not(.vertical) button, notebook > header tab button.flat, button.side
 
 .linked > button, .linked:not(.vertical) > spinbutton:not(.vertical), .linked:not(.vertical) > entry, combobox > .linked > button, .linked:not(.vertical) > combobox > box > button.combo {
   border-radius: 0;
-  -gtk-outline-radius: 0px;
+  -gtk-outline-radius: 1px;
 }
 
 .linked > button:first-child {
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
+  border-top-left-radius: 1px;
+  border-bottom-left-radius: 1px;
 }
 
 .linked > button:last-child {
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 1px;
 }
 
 .linked > button:only-child {
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 .linked.vertical > button, .linked.vertical > spinbutton:not(.vertical), .linked.vertical > entry, .linked.vertical > combobox > box > button.combo {
   border-radius: 0;
-  -gtk-outline-radius: 0px;
+  -gtk-outline-radius: 1px;
 }
 
 .linked.vertical > button:first-child {
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
 }
 
 .linked.vertical > button:last-child {
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px;
 }
 
 .linked.vertical > button:only-child {
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 .linked:not(.vertical) > spinbutton:first-child:not(.vertical), .linked:not(.vertical) > entry:first-child, combobox.linked button:nth-child(2):dir(rtl), combobox > .linked > button:first-child, .linked:not(.vertical) > combobox:first-child > box > button.combo {
-  border-radius: 0px 0 0 0;
+  border-radius: 1px 0 0 0;
 }
 
 .linked:not(.vertical) > spinbutton:last-child:not(.vertical), .linked:not(.vertical) > entry:last-child, combobox.linked button:nth-child(2):dir(ltr), combobox > .linked > button:last-child, .linked:not(.vertical) > combobox:last-child > box > button.combo {
-  border-radius: 0 0px 0 0;
+  border-radius: 0 1px 0 0;
 }
 
 .linked:not(.vertical) > spinbutton:only-child:not(.vertical), .linked:not(.vertical) > entry:only-child, combobox > .linked > button:only-child, .linked:not(.vertical) > combobox:only-child > box > button.combo {
-  border-radius: 0px 0px 0 0;
+  border-radius: 1px 1px 0 0;
 }
 
 .linked.vertical > spinbutton:first-child:not(.vertical), .linked.vertical > entry:first-child, .linked.vertical > combobox:first-child > box > button.combo {
-  border-radius: 0px 0px 0 0;
+  border-radius: 1px 1px 0 0;
 }
 
 .linked.vertical > spinbutton:last-child:not(.vertical), .linked.vertical > entry:last-child, .linked.vertical > combobox:last-child > box > button.combo {
@@ -895,7 +895,7 @@ spinbutton:not(.vertical) button, notebook > header tab button.flat, button.side
 }
 
 .linked.vertical > spinbutton:only-child:not(.vertical), .linked.vertical > entry:only-child, .linked.vertical > combobox:only-child > box > button.combo {
-  border-radius: 0px 0px 0 0;
+  border-radius: 1px 1px 0 0;
 }
 
 /* menu buttons */
@@ -903,7 +903,7 @@ modelbutton.flat,
 .menuitem.button.flat {
   min-height: 28px;
   padding: 0 8px;
-  border-radius: 0px;
+  border-radius: 1px;
   color: inherit;
 }
 
@@ -992,11 +992,11 @@ spinbutton.vertical button {
 }
 
 spinbutton.vertical button.up {
-  border-radius: 0px 0px 0 0;
+  border-radius: 1px 1px 0 0;
 }
 
 spinbutton.vertical button.down {
-  border-radius: 0 0 0px 0px;
+  border-radius: 0 0 1px 1px;
 }
 
 treeview spinbutton:not(.vertical) {
@@ -1055,7 +1055,7 @@ combobox:drop(active) {
 }
 
 button.combo {
-  border-radius: 0px 0px 0 0;
+  border-radius: 1px 1px 0 0;
   background-image: none;
   font-weight: inherit;
   transition: all 100ms cubic-bezier(0, 0, 0.2, 1), border-image 225ms cubic-bezier(0, 0, 0.2, 1);
@@ -1095,13 +1095,13 @@ toolbar {
 toolbar.osd, .app-notification, frame.documents-dropdown {
   transition: box-shadow 100ms cubic-bezier(0, 0, 0.2, 1);
   padding: 4px;
-  border-radius: 0px;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23), inset 0 1px rgba(255, 255, 255, 0.2);
-  background-color: #4465a6;
+  border-radius: 1px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23), inset 0 1px rgba(255, 255, 255, 0.1);
+  background-color: #272c35;
 }
 
 toolbar.osd:backdrop, .app-notification:backdrop, frame.documents-dropdown:backdrop {
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24), inset 0 1px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24), inset 0 1px rgba(255, 255, 255, 0.1);
 }
 
 toolbar.osd.left, .left.app-notification, frame.left.documents-dropdown, toolbar.osd.right, .right.app-notification, frame.right.documents-dropdown, toolbar.osd.top, .top.app-notification, frame.top.documents-dropdown, toolbar.osd.bottom, .bottom.app-notification, frame.bottom.documents-dropdown {
@@ -1239,7 +1239,7 @@ headerbar entry image:disabled {
 
 .titlebar:not(headerbar) .linked:not(.vertical) > entry:not(.flat),
 headerbar .linked:not(.vertical) > entry:not(.flat) {
-  border-radius: 0px 0px 0 0;
+  border-radius: 1px 1px 0 0;
 }
 
 .titlebar:not(headerbar) button:not(.suggested-action):not(.destructive-action),
@@ -1481,8 +1481,8 @@ headerbar.titlebar headerbar:not(.titlebar) {
 }
 
 .background .titlebar {
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
 }
 
 .background.tiled .titlebar,
@@ -1498,16 +1498,16 @@ headerbar.titlebar headerbar:not(.titlebar) {
 
 window separator:first-child + headerbar,
 window headerbar:first-child {
-  border-top-left-radius: 0px;
+  border-top-left-radius: 1px;
 }
 
 window headerbar:last-child {
-  border-top-right-radius: 0px;
+  border-top-right-radius: 1px;
 }
 
 window stack headerbar:first-child, window stack headerbar:last-child {
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
 }
 
 window.tiled headerbar, window.tiled headerbar:first-child, window.tiled headerbar:last-child, window.tiled headerbar:only-child,
@@ -1584,7 +1584,7 @@ window.csd > .titlebar:not(headerbar) {
 :not(headerbar) .caja-pathbar button, .caja-pathbar :not(headerbar) button, :not(headerbar)
 .path-bar button {
   border-image: radial-gradient(circle closest-corner at center calc(100% - 1px), #4465a6 0%, transparent 0%) 0 0 0/0 0 0px;
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 :not(headerbar) .caja-pathbar button:checked, .caja-pathbar :not(headerbar) button:checked, :not(headerbar)
@@ -1773,8 +1773,8 @@ menu,
 .context-menu {
   margin: 4px 0;
   padding: 4px 0;
-  box-shadow: inset 0 1px rgba(255, 255, 255, 0.2);
-  background-color: #4465a6;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
+  background-color: #272c35;
   border: 1px solid rgba(0, 0, 0, 0.26);
 }
 
@@ -1782,7 +1782,7 @@ menu,
 .menu, .csd
 .context-menu {
   border: none;
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 menu menuitem,
@@ -1844,7 +1844,7 @@ menu > arrow,
   min-height: 16px;
   min-width: 16px;
   padding: 4px;
-  background-color: #4465a6;
+  background-color: #272c35;
   color: rgba(216, 222, 232, 0.7);
 }
 
@@ -1853,7 +1853,7 @@ menu > arrow.top,
 .context-menu > arrow.top {
   margin-top: -4px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.26);
-  border-radius: 0px 0px 0 0;
+  border-radius: 1px 1px 0 0;
   -gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
 }
 
@@ -1863,7 +1863,7 @@ menu > arrow.bottom,
   margin-top: 8px;
   margin-bottom: -12px;
   border-top: 1px solid rgba(0, 0, 0, 0.26);
-  border-radius: 0 0 0px 0px;
+  border-radius: 0 0 1px 1px;
   -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
 }
 
@@ -1901,15 +1901,15 @@ menuitem:disabled accelerator {
 }
 
 .popup:not(.csd) menu menuitem:hover {
-  background-color: #5674ae;
+  background-color: #3c414a;
 }
 
 .popup:not(.csd) menu menuitem:disabled {
-  color: #8ea2c7;
+  color: #80858f;
 }
 
 .popup:not(.csd) menu accelerator {
-  color: #acbad4;
+  color: #a3a9b2;
 }
 
 /************
@@ -1919,7 +1919,7 @@ popover.background {
   transition: box-shadow 100ms cubic-bezier(0, 0, 0.2, 1);
   padding: 2px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23);
-  background-color: #4465a6;
+  background-color: #272c35;
 }
 
 popover.background:backdrop {
@@ -1930,7 +1930,7 @@ popover.background, .csd popover.background {
   border-style: solid;
   border-width: 1px;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.3);
-  border-radius: 1px;
+  border-radius: 2px;
 }
 
 popover.background > stack {
@@ -1952,14 +1952,14 @@ popover.background > toolbar {
 popover.background list,
 popover.background .view:not(:selected),
 popover.background toolbar {
-  background-color: #4465a6;
+  background-color: #272c35;
 }
 
 popover.background.menu button,
 popover.background button.model {
   min-height: 32px;
   padding: 0 8px;
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 popover.background separator {
@@ -2393,7 +2393,7 @@ switch slider {
   border-radius: 9999px;
   outline: none;
   box-shadow: 0 0 0 10px transparent, 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  background-color: #4465a6;
+  background-color: #272c35;
 }
 
 switch:hover slider {
@@ -2598,8 +2598,8 @@ window.background:not(.csd) > widget > checkbutton > check,
 menu menuitem check {
   min-height: 16px;
   min-width: 16px;
-  border-radius: 0px;
-  -gtk-outline-radius: 0px;
+  border-radius: 1px;
+  -gtk-outline-radius: 1px;
   -gtk-icon-source: -gtk-recolor(url("assets/scalable/small-checkbox-unchecked-symbolic.svg"));
 }
 
@@ -3224,7 +3224,7 @@ calendar:disabled {
 }
 
 calendar:selected {
-  border-radius: 1px;
+  border-radius: 2px;
 }
 
 calendar.header {
@@ -3245,14 +3245,14 @@ calendar:indeterminate {
  * Dialogs *
  ***********/
 messagedialog.background {
-  background-color: #4465a6;
+  background-color: #272c35;
 }
 
 messagedialog .titlebar {
   min-height: 24px;
   border-style: none;
-  box-shadow: inset 0 1px rgba(255, 255, 255, 0.2);
-  background-color: #4465a6;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
+  background-color: #272c35;
   color: #d8dee8;
 }
 
@@ -3261,8 +3261,8 @@ messagedialog .titlebar:backdrop {
 }
 
 messagedialog.csd.background {
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px;
 }
 
 messagedialog.csd .dialog-action-area {
@@ -3271,7 +3271,7 @@ messagedialog.csd .dialog-action-area {
 }
 
 messagedialog.csd .dialog-action-area button {
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 messagedialog.csd .dialog-action-area button:not(:last-child) {
@@ -3357,7 +3357,7 @@ placessidebar row {
   min-height: 32px;
   margin: -1px 4px;
   padding: 0;
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 placessidebar row > revealer {
@@ -3519,7 +3519,7 @@ infobar.error button:visited {
  * Tooltips *
  ************/
 tooltip {
-  border-radius: 0px;
+  border-radius: 1px;
   box-shadow: none;
 }
 
@@ -3541,43 +3541,43 @@ tooltip label {
  * Color Chooser *
  *****************/
 colorswatch.top {
-  border-top-left-radius: 0.5px;
-  border-top-right-radius: 0.5px;
+  border-top-left-radius: 1.5px;
+  border-top-right-radius: 1.5px;
 }
 
 colorswatch.top overlay {
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
 }
 
 colorswatch.bottom {
-  border-bottom-left-radius: 0.5px;
-  border-bottom-right-radius: 0.5px;
+  border-bottom-left-radius: 1.5px;
+  border-bottom-right-radius: 1.5px;
 }
 
 colorswatch.bottom overlay {
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 1px;
+  border-bottom-right-radius: 1px;
 }
 
 colorswatch.left, colorswatch:first-child:not(.top) {
-  border-top-left-radius: 0.5px;
-  border-bottom-left-radius: 0.5px;
+  border-top-left-radius: 1.5px;
+  border-bottom-left-radius: 1.5px;
 }
 
 colorswatch.left overlay, colorswatch:first-child:not(.top) overlay {
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
+  border-top-left-radius: 1px;
+  border-bottom-left-radius: 1px;
 }
 
 colorswatch.right, colorswatch:last-child:not(.bottom) {
-  border-top-right-radius: 0.5px;
-  border-bottom-right-radius: 0.5px;
+  border-top-right-radius: 1.5px;
+  border-bottom-right-radius: 1.5px;
 }
 
 colorswatch.right overlay, colorswatch:last-child:not(.bottom) overlay {
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 1px;
 }
 
 colorswatch.dark {
@@ -3610,12 +3610,12 @@ colorswatch overlay:hover {
 }
 
 colorswatch#add-color-button {
-  border-radius: 0px 0px 0 0;
+  border-radius: 1px 1px 0 0;
   color: white;
 }
 
 colorswatch#add-color-button:only-child {
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 colorswatch#add-color-button overlay {
@@ -3631,22 +3631,22 @@ colorswatch:disabled overlay {
 }
 
 colorswatch#editor-color-sample {
-  border-radius: 0.5px;
+  border-radius: 1.5px;
 }
 
 colorswatch#editor-color-sample overlay {
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 colorchooser .popover.osd {
   transition: box-shadow 100ms cubic-bezier(0, 0, 0.2, 1);
-  border-radius: 0px;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23), inset 0 1px rgba(255, 255, 255, 0.2);
-  background-color: #4465a6;
+  border-radius: 1px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23), inset 0 1px rgba(255, 255, 255, 0.1);
+  background-color: #272c35;
 }
 
 colorchooser .popover.osd:backdrop {
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24), inset 0 1px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24), inset 0 1px rgba(255, 255, 255, 0.1);
 }
 
 /********
@@ -3661,7 +3661,7 @@ colorchooser .popover.osd:backdrop {
  **********************/
 decoration {
   transition: box-shadow 100ms cubic-bezier(0, 0, 0.2, 1);
-  border-radius: 0px 0px 0 0;
+  border-radius: 1px 1px 0 0;
   box-shadow: 0 14px 14px rgba(0, 0, 0, 0.25), 0 10px 5px rgba(0, 0, 0, 0.22), 0 16px 16px transparent;
   margin: 8px;
 }
@@ -3689,17 +3689,17 @@ decoration:backdrop {
 }
 
 .csd.popup decoration {
-  border-radius: 0px;
+  border-radius: 1px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23);
 }
 
 tooltip.csd decoration {
-  border-radius: 0px;
+  border-radius: 1px;
   box-shadow: none;
 }
 
 messagedialog.csd decoration {
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 .solid-csd decoration {
@@ -3753,9 +3753,9 @@ cursor-handle.insertion-cursor:dir(ltr), cursor-handle.insertion-cursor:dir(rtl)
   padding-left: 8px;
   padding-right: 8px;
   border: solid 1px rgba(0, 0, 0, 0.26);
-  border-radius: 1px;
+  border-radius: 2px;
   box-shadow: inset 0 -2px rgba(0, 0, 0, 0.26);
-  background-color: #4465a6;
+  background-color: #272c35;
   color: #d8dee8;
   font-size: smaller;
 }
@@ -3837,7 +3837,7 @@ popover.emoji-picker .emoji {
 
 popover.emoji-picker .emoji widget {
   transition: all 100ms cubic-bezier(0, 0, 0.2, 1);
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 popover.emoji-picker .emoji widget:hover {
@@ -3899,7 +3899,7 @@ headerbar .nautilus-canvas-item.subtitle, .budgie-notification .nautilus-canvas-
 .path-bar-box {
   transition: background-color 100ms cubic-bezier(0, 0, 0.2, 1);
   margin: 4px 0;
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 .path-bar-box button {
@@ -3946,7 +3946,7 @@ headerbar .nautilus-canvas-item.subtitle, .budgie-notification .nautilus-canvas-
   border-style: solid solid none;
   border-width: 1px;
   border-color: rgba(0, 0, 0, 0.26);
-  border-radius: 1px 1px 0 0;
+  border-radius: 2px 2px 0 0;
   background-color: rgba(39, 44, 53, 0.9);
   background-clip: border-box;
 }
@@ -3995,7 +3995,7 @@ headerbar .nautilus-canvas-item.subtitle, .budgie-notification .nautilus-canvas-
 
 .nautilus-window flowboxchild .icon-item-background {
   padding: 4px;
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 .nautilus-window flowboxchild:selected {
@@ -4087,7 +4087,7 @@ dialog.background > box.dialog-vbox.vertical > grid.horizontal > box.horizontal:
 }
 
 .gedit-search-slider .linked:not(.vertical) > entry {
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 .gedit-search-slider .linked:not(.vertical) > entry .gedit-search-entry-occurrences-tag {
@@ -4122,7 +4122,7 @@ dialog.background > box.dialog-vbox.vertical > grid.horizontal > box.horizontal:
 }
 
 .gedit-search-slider .linked:not(.vertical) > entry:not(.error) {
-  background-color: #4465a6;
+  background-color: #272c35;
 }
 
 .gedit-search-slider .linked:not(.vertical) > entry.error ~ button {
@@ -4274,7 +4274,7 @@ popover.popover-selector list {
 }
 
 popover.popover-selector list row {
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 popover.popover-selector list row image:dir(ltr) {
@@ -4294,7 +4294,7 @@ popover.popover-selector list row .accel:dir(rtl) {
 }
 
 omnibar.linked:not(.vertical) entry {
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 omnibar:not(:hover):not(:active) entry {
@@ -4337,11 +4337,11 @@ popover.messagepopover .popover-action-area button {
 }
 
 popover.messagepopover .popover-action-area button:first-child {
-  border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 1px;
 }
 
 popover.messagepopover .popover-action-area button:last-child {
-  border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 1px;
 }
 
 popover.messagepopover .popover-content-area {
@@ -4440,7 +4440,7 @@ dockoverlayedge.right-edge docktab:checked {
 
 pillbox {
   background-color: #272c35;
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 layoutpane entry.search {
@@ -4729,7 +4729,7 @@ tasklistview > box > revealer > box > button headerbar .subtitle, headerbar task
 }
 
 #eog-thumb-nav button {
-  -gtk-outline-radius: 0px;
+  -gtk-outline-radius: 1px;
 }
 
 /*************
@@ -4767,7 +4767,7 @@ list.categories {
 .transparent-bg + stack overlay > label {
   min-height: 24px;
   padding: 0 4px;
-  border-radius: 0px;
+  border-radius: 1px;
   background-color: rgba(0, 0, 0, 0.6);
   color: white;
 }
@@ -4823,7 +4823,7 @@ overlay > revealer.right > scrolledwindow.frame {
 
 .terminix-session-sidebar,
 .tilix-session-sidebar {
-  background-image: image(#4465a6);
+  background-image: image(#272c35);
 }
 
 .terminal-titlebar button {
@@ -4858,14 +4858,14 @@ window.background > box.vertical > scrolledwindow > widget toolbar button {
 }
 
 window.background > box.vertical > scrolledwindow > widget toolbar button {
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 /************
  * Chromium *
  ************/
 window.background.chromium {
-  background-color: #4465a6;
+  background-color: #272c35;
 }
 
 window.background.chromium entry,
@@ -4895,7 +4895,7 @@ window.background.chromium spinner {
 }
 
 window.background.chromium textview {
-  background-color: #4465a6;
+  background-color: #272c35;
 }
 
 tooltip.background.chromium {
@@ -4921,7 +4921,7 @@ window.background:not(.csd) > widget > frame > border {
 window.background:not(.csd) > widget > entry,
 window.background:not(.csd) > widget > button > button {
   border: 1px solid rgba(0, 0, 0, 0.26);
-  border-radius: 1px;
+  border-radius: 2px;
   box-shadow: none;
 }
 
@@ -5018,8 +5018,8 @@ window.background:not(.csd) > window.background > menu > separator {
   min-height: 24px;
   min-width: 16px;
   padding: 4px 8px;
-  border-radius: 0px;
-  -gtk-outline-radius: 0px;
+  border-radius: 1px;
+  -gtk-outline-radius: 1px;
 }
 
 #ToolboxCommon > #AuxToolbox spinbutton button {
@@ -5034,8 +5034,8 @@ window.background:not(.csd) > window.background > menu > separator {
   min-height: 24px;
   min-width: 24px;
   padding: 4px;
-  border-radius: 0px;
-  -gtk-outline-radius: 0px;
+  border-radius: 1px;
+  -gtk-outline-radius: 1px;
 }
 
 #CanvasTable button {
@@ -5101,7 +5101,7 @@ UnityDecoration {
 UnityDecoration .top {
   padding: 0 2px;
   border-style: none;
-  border-radius: 0px 0px 0 0;
+  border-radius: 1px 1px 0 0;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
   background-color: #272c35;
   color: #d8dee8;
@@ -5299,8 +5299,8 @@ PanelApplet.wnck-applet .wnck-pager:selected {
 
 #MatePanelPopupWindow {
   border: 1px solid rgba(0, 0, 0, 0.26);
-  border-radius: 1px;
-  box-shadow: inset 0 1px rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
 }
 
 #MatePanelPopupWindow frame > border {
@@ -5326,8 +5326,8 @@ na-tray-applet {
 
 .mate-panel-applet-slider {
   border: 1px solid rgba(0, 0, 0, 0.26);
-  border-radius: 1px;
-  box-shadow: inset 0 1px rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
   background-color: #272c35;
 }
 
@@ -5377,7 +5377,7 @@ na-tray-applet {
  * CAJA File manager *
  *********************/
 .caja-navigation-window button.toggle.image-button {
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 .caja-pathbar button {
@@ -5480,8 +5480,8 @@ na-tray-applet {
 
 /* mate-screensaver lock dialog */
 .lock-dialog {
-  border-radius: 0px;
-  box-shadow: 0 14px 14px rgba(0, 0, 0, 0.25), 0 10px 5px rgba(0, 0, 0, 0.22), inset 0 1px rgba(255, 255, 255, 0.2);
+  border-radius: 1px;
+  box-shadow: 0 14px 14px rgba(0, 0, 0, 0.25), 0 10px 5px rgba(0, 0, 0, 0.22), inset 0 1px rgba(255, 255, 255, 0.1);
 }
 
 .lock-dialog frame > border {
@@ -5490,7 +5490,7 @@ na-tray-applet {
 
 /* multimedia OSD */
 MsdOsdWindow.background.osd {
-  border-radius: 0px;
+  border-radius: 1px;
   background-color: rgba(39, 44, 53, 0.9);
   color: white;
 }
@@ -5517,17 +5517,17 @@ MsdOsdWindow.background.osd .progressbar {
 }
 
 .budgie-settings-window buttonbox.inline-toolbar button {
-  border-radius: 0px;
-  -gtk-outline-radius: 0px;
+  border-radius: 1px;
+  -gtk-outline-radius: 1px;
 }
 
 .budgie-popover {
   border-style: solid;
   border-width: 1px;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.3);
-  border-radius: 1px;
+  border-radius: 2px;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23);
-  background-color: #4465a6;
+  background-color: #272c35;
 }
 
 .budgie-popover .container {
@@ -5717,7 +5717,7 @@ MsdOsdWindow.background.osd .progressbar {
   min-height: 24px;
   min-width: 24px;
   padding: 0;
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 .budgie-panel {
@@ -5856,7 +5856,7 @@ frame.raven-frame > border {
 }
 
 .raven {
-  background-color: #4465a6;
+  background-color: #272c35;
 }
 
 .raven > box {
@@ -5931,7 +5931,7 @@ calendar.raven-calendar {
 }
 
 calendar.raven-calendar:selected {
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 .raven-mpris {
@@ -5962,22 +5962,22 @@ calendar.raven-calendar:selected {
 .drop-shadow {
   margin: 5px 9px;
   padding: 3px;
-  border-radius: 0px;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23), inset 0 1px rgba(255, 255, 255, 0.2);
-  background-color: #4465a6;
+  border-radius: 1px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23), inset 0 1px rgba(255, 255, 255, 0.1);
+  background-color: #272c35;
 }
 
 .drop-shadow .linked > button {
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 .budgie-session-dialog, .budgie-polkit-dialog, .budgie-run-dialog {
-  border-radius: 0px;
-  background-color: #4465a6;
+  border-radius: 1px;
+  background-color: #272c35;
 }
 
 .budgie-session-dialog decoration, .budgie-polkit-dialog decoration, .budgie-run-dialog decoration {
-  border-radius: 0px;
+  border-radius: 1px;
 }
 
 .budgie-session-dialog label:not(:last-child),
@@ -5992,11 +5992,11 @@ calendar.raven-calendar:selected {
 }
 
 .budgie-session-dialog .linked.horizontal > button:first-child {
-  border-bottom-left-radius: 0px;
+  border-bottom-left-radius: 1px;
 }
 
 .budgie-session-dialog .linked.horizontal > button:last-child {
-  border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 1px;
 }
 
 .budgie-polkit-dialog .message {
@@ -6081,7 +6081,7 @@ wnck-pager:selected {
 }
 
 XfdesktopIconView.view {
-  border-radius: 0px;
+  border-radius: 1px;
   background-color: transparent;
   color: white;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -6105,7 +6105,7 @@ XfdesktopIconView.view .rubberband {
 
 #xfwm-tabwin {
   padding: 12px;
-  border-radius: 0px;
+  border-radius: 1px;
   -XfwmTabwinWidget-icon-size: 64px;
   -XfwmTabwinWidget-preview-size: 64px;
 }
@@ -6168,9 +6168,9 @@ XfdesktopIconView.view .rubberband {
 #shutdown_dialog,
 #restart_dialog {
   margin: 8px;
-  border-radius: 0px;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23), inset 0 1px rgba(255, 255, 255, 0.2);
-  background-color: #4465a6;
+  border-radius: 1px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23), inset 0 1px rgba(255, 255, 255, 0.1);
+  background-color: #272c35;
 }
 
 #content_frame {
@@ -6229,7 +6229,7 @@ XfdesktopIconView.view .rubberband {
 }
 
 .nemo-window .nemo-window-pane widget.entry {
-  border-radius: 0px;
+  border-radius: 1px;
   background-color: rgba(216, 222, 232, 0.04);
 }
 
